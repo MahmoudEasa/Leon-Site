@@ -162,7 +162,7 @@ p {
 }
 .not-opacity {
     position: absolute;
-    top: 100px;
+    top: 4.7em;
     font-size: 1.3em;
     color: gray;
     letter-spacing: 1px;
@@ -302,7 +302,7 @@ p {
 }
 .container-contact h2 {
     font-size: 1.8em;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     margin: 0;
     padding: 0;
 }
@@ -338,5 +338,231 @@ footer p {
 footer span {
     color: #10cab7;
 }
-
-
+@media (max-width: 200px) {
+    body {
+        font-size: 4px;
+    }
+    .main2 .card {
+        max-width: 100%;
+    }
+    .tow-cards-image {
+        display: none;
+    }
+    .for-cards {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tow-cards .card1 {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .container-about {
+        flex-direction: column;
+    }
+    .container-image img {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .container-p, .container-p p {
+        text-align: center;
+        margin: 1em;
+    }
+    .container-p hr {
+        margin: 1em;
+    }
+    .shape2 {
+        display: none;
+    }
+    .shape3 {
+        display: none;
+    }
+    .shape4 {
+        display: none;
+    }
+    .blue {
+        color: black;
+        font-weight: 800;
+    }
+    .container-contact h2 {
+        font-size: 1.5em;
+        letter-spacing: inherit;
+    }
+}
+@media (min-width: 201px) and (max-width: 300px) {
+    body {
+        font-size: 6px;
+    }
+    .main2 .card {
+        max-width: 100%;
+    }
+    .tow-cards-image {
+        display: none;
+    }
+    .for-cards {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tow-cards .card1 {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .container-about {
+        flex-direction: column;
+    }
+    .container-image img {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .container-p, .container-p p {
+        text-align: center;
+        margin: 1em;
+    }
+    .container-p hr {
+        margin: 1em;
+    }
+    .shape2 {
+        display: none;
+    }
+    .shape3 {
+        display: none;
+    }
+    .shape4 {
+        display: none;
+    }
+    .blue {
+        color: black;
+        font-weight: 800;
+    }
+    .container-contact {
+        font-size: 0.6em;
+        letter-spacing: inherit;
+    }
+}
+@media (min-width: 301px) and (max-width: 500px) {
+    body {
+        font-size: 10px;
+    }
+    .main2 .card {
+        max-width: 100%;
+    }
+    .tow-cards-image {
+        display: none;
+    }
+    .for-cards {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tow-cards .card1 {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .container-about {
+        flex-direction: column;
+    }
+    .container-image img {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .container-p, .container-p p {
+        text-align: center;
+        margin: 1em;
+    }
+    .container-p hr {
+        margin: 1em;
+    }
+    .shape2 {
+        display: none;
+    }
+    .shape3 {
+        display: none;
+    }
+    .shape4 {
+        display: none;
+    }
+    .blue {
+        color: black;
+        font-weight: 800;
+    }
+    .container-contact {
+        font-size: 0.6em;
+        letter-spacing: inherit;
+    }
+}
+@media (min-width: 501px) and (max-width: 800px) {
+    body {
+        font-size: 16px;
+    }
+    .main2 .card {
+        max-width: 100%;
+    }
+    .tow-cards-image {
+        display: none;
+    }
+    .for-cards {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tow-cards .card1 {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .container-about {
+        flex-direction: column;
+    }
+    .container-image img {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .container-p, .container-p p {
+        text-align: center;
+        margin: 1em;
+    }
+    .container-p hr {
+        margin: 1em;
+    }
+    .shape2 {
+        display: none;
+    }
+    .shape3 {
+        display: none;
+    }
+    .shape4 {
+        display: none;
+    }
+    .blue {
+        color: black;
+        font-weight: 800;
+    }
+    .container-contact {
+        font-size: 0.6em;
+        letter-spacing: inherit;
+    }
+}
+@media (max-width: 1030px) {
+    .tow-cards-image {
+        display: none;
+    }
+    .for-cards {
+        width: 100%;
+    }
+}
